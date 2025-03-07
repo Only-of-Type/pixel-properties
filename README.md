@@ -28,4 +28,4 @@ Should open on http://localhost:5173 by default
 
 ## Contributing
 
-This is a practice/ POC type of project, so contributions are disabled. Free free to pull/clone or use anything in here you might find useful though
+This is a practice / demo type of project, so contributions are disabled. Free free to pull/clone or use anything in here you might find useful though
