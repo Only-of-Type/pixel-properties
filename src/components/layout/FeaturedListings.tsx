@@ -10,7 +10,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -28,7 +28,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house2.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -46,7 +46,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -64,7 +64,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house4.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -82,7 +82,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house4.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -100,7 +100,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -118,7 +118,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house2.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -136,7 +136,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -154,7 +154,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house4.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -172,7 +172,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -190,7 +190,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house2.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />
@@ -208,7 +208,7 @@ function FeaturedListings() {
             title='View Details on 1234 Main Street'
           >
             <img
-              src='/featured-home.jpeg'
+              src='/house1.jpg'
               className='featured-home-image'
               alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
             />

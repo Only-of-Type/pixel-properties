@@ -173,7 +173,7 @@ Hero
       rgba(59, 59, 59, 0.3) 0%,
       rgba(59, 59, 59, 0.3) 100%
     ),
-    url('../images/quick-search-bg.jpeg');
+    url('/hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
