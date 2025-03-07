@@ -24,7 +24,7 @@ function Nav() {
           <a href='#'>Contact</a>
         </li>
         <li>
-          <a href='#'>330-555-5555</a>
+          <a href='#'>555-555-5555</a>
         </li>
         <li>
           <button
