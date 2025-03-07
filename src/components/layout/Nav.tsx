@@ -1,30 +1,30 @@
 function Nav() {
   return (
     <nav id='main-nav'>
-      <a href='javascript:void(0)' title='Go to Delta Media Group Homepage'>
-        <img src='/delta-logo-white.png' alt='' role='presentation' />
+      <a className='logo' href='#' title='Go to Pixel Properties Homepage'>
+        <img src='/logo.svg' alt='' role='presentation' />
       </a>
       <button className='mobile-nav'>
         <img src='/icon-hamburger.png' alt='Open Navigation' />
       </button>
       <ul className='main-nav-links nav'>
         <li>
-          <a href='javascript:void(0)'>Search Properties</a>
+          <a href='#'>Search Properties</a>
         </li>
         <li>
-          <a href='javascript:void(0)'>Buying</a>
+          <a href='#'>Buying</a>
         </li>
         <li>
-          <a href='javascript:void(0)'>Selling</a>
+          <a href='#'>Selling</a>
         </li>
         <li>
-          <a href='javascript:void(0)'>Agents</a>
+          <a href='#'>Agents</a>
         </li>
         <li>
-          <a href='javascript:void(0)'>Contact</a>
+          <a href='#'>Contact</a>
         </li>
         <li>
-          <a href='javascript:void(0)'>330-555-5555</a>
+          <a href='#'>330-555-5555</a>
         </li>
         <li>
           <button
