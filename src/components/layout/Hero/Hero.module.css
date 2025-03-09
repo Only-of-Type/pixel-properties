@@ -4,8 +4,8 @@ Hero
 .container {
   background-image: linear-gradient(
       180deg,
-      rgba(59, 59, 59, 0.3) 0%,
-      rgba(59, 59, 59, 0.3) 100%
+      rgba(97, 32, 10, 0.3) 0%,
+      rgba(97, 32, 10, 0.3) 100%
     ),
     url('/hero.jpg');
   background-size: cover;

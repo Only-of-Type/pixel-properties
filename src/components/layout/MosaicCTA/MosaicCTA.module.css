@@ -1,0 +1,40 @@
+.ctaWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cta {
+  background-color: var(--color-orange-orange1);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.cta:nth-child(2) {
+  background-color: var(--color-orange-orange2);
+}
+.cta:nth-child(3) {
+  background-color: var(--color-orange-orange3);
+}
+.cta:hover {
+  filter: brightness(1.25);
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .cta {
+    flex: 1 0 33%;
+  }
+  .ctaWrapper {
+    flex-direction: row;
+  }
+}

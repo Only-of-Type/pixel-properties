@@ -10,9 +10,18 @@ CSS Variables
   --color-blue-blue4: rgba(6, 149, 198, 1);
   --color-blue-blue5: rgba(62, 162, 205, 1);
 
+  --color-purple-purple1: rgba(76, 40, 73, 1);
   --color-purple-purple2: rgba(126, 70, 122, 1);
+  --color-purple-purple3: rgba(139, 88, 135, 1);
+  --color-purple-purple4: rgba(165, 123, 161, 1);
 
+  --color-orange-orange1: #d64b14;
   --color-orange-orange2: rgba(240, 112, 58, 1);
+  --color-orange-orange3: rgb(253, 166, 84);
+
+  --color-orange-redorange1: rgba(176, 43, 12, 1);
+  --color-orange-redorange2: rgba(237, 61, 21, 1);
+  --color-orange-redorange3: rgba(242, 88, 56, 1);
 
   --color-green-green2: rgba(68, 168, 101, 1);
 
@@ -62,6 +71,10 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+}
+svg {
+  width: 100%;
+  height: auto;
 }
 input,
 button,

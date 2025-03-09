@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav id='main-nav' className={styles.mainNav}>
       <a
-        className={styles.logo}
+        className={`${styles.link} ${styles.logo}`}
         href='#'
         title='Go to Pixel Properties Homepage'
       >
@@ -16,22 +16,29 @@ function Nav() {
       </button>
       <menu className={`${styles.mainNavLinks} ${styles.nav}`}>
         <li>
-          <a href='#'>Search Properties</a>
+          <a className={styles.link} href='#'>
+            Find a Home
+          </a>
         </li>
         <li>
-          <a href='#'>Buying</a>
+          <a className={styles.link} href='#'>
+            Sell a Home
+          </a>
         </li>
         <li>
-          <a href='#'>Selling</a>
+          <a className={styles.link} href='#'>
+            Agents
+          </a>
         </li>
         <li>
-          <a href='#'>Agents</a>
+          <a className={styles.link} href='#'>
+            About Us
+          </a>
         </li>
         <li>
-          <a href='#'>Contact</a>
-        </li>
-        <li>
-          <a href='#'>555-555-5555</a>
+          <a className={styles.link} href='#'>
+            Contact
+          </a>
         </li>
         <li>
           <Button label='Login' />

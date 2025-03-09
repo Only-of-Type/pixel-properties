@@ -1,6 +1,6 @@
 .button {
   border-radius: var(--input-border-radius);
-  background-color: var(--color-blue-blue2);
+  background-color: var(--color-purple-purple2);
   color: white;
   font-size: 1.25rem;
   border: 0.1rem solid transparent;
@@ -15,7 +15,7 @@
 }
 .button:hover,
 .button:active {
-  background-color: var(--color-blue-blue1);
+  background-color: var(--color-purple-purple1);
 }
 .icon {
   flex-shrink: 0;
