@@ -1,7 +1,7 @@
 :root {
-  --font-headline-family-default: 'Raleway', sans-serif;
+  --font-headline-family-default: 'Quicksand', sans-serif;
   --font-headline-weight-default: 400;
-  --font-body-family-default: 'Raleway', sans-serif;
+  --font-body-family-default: 'Josefin Sans', sans-serif;
   --font-body-weight-default: 400;
 }
 
@@ -11,29 +11,11 @@ body {
   font-weight: var(--font-body-weight-default);
 }
 
-.raleway-regular {
-  font-family: 'Raleway', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.raleway-semi-bold {
-  font-family: 'Raleway', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.open-sans-regular {
-  font-family: 'Open Sans', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: 'wdth' 100;
-}
 .bold {
   font-weight: 700;
 }
 .display1 {
+  font-family: var(--font-headline-family-default);
   font-size: 4rem;
   text-transform: uppercase;
   line-height: 1;

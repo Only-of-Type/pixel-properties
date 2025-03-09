@@ -31,7 +31,7 @@ export const handlers = [
       {
         id: '4',
         picture: 'house2.jpg',
-        address: '426a Jeff Lane Onett, Eagleland',
+        address: '426a HAL Lab Ln Onett, Eagleland',
         price: '550000',
         beds: '4',
         baths: '3',
@@ -63,7 +63,7 @@ export const handlers = [
       {
         id: '8',
         picture: 'house3.jpg',
-        address: '4040 Nessie Nook Onett, Eagleland',
+        address: '4040 Tessie Ter Onett, Eagleland',
         price: '333000',
         beds: '3',
         baths: '3',

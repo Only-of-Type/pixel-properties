@@ -19,6 +19,7 @@ This was originally a technical submission for an interview that I did, though a
 - React
   - Vite project creation
   - React classnames
+- CSS Modules
 - TypeScript
 
 ## Running

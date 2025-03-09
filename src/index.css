@@ -4,13 +4,21 @@ CSS Variables
 ==============================================================================*/
 :root {
   /* Colors  */
-  --color-blue-blue1: rgba(4, 73, 101, 1);
-  --color-blue-blue2: rgba(7, 100, 137, 1);
-  --color-blue-blue3: rgba(7, 113, 158, 1);
+  --color-blue-blue1: rgba(26, 57, 112, 1);
+  --color-blue-blue2: rgba(39, 80, 152, 1);
+  --color-blue-blue3: rgba(59, 97, 163, 1);
   --color-blue-blue4: rgba(6, 149, 198, 1);
   --color-blue-blue5: rgba(62, 162, 205, 1);
 
+  --color-purple-purple2: rgba(126, 70, 122, 1);
+
+  --color-orange-orange2: rgba(240, 112, 58, 1);
+
+  --color-green-green2: rgba(68, 168, 101, 1);
+
   --color-body-text-default: rgba(255, 255, 255, 1);
+
+  --input-border-radius: 0.4rem;
 }
 
 /* =============================================================================
@@ -119,7 +127,15 @@ Global Styles
 body {
   color: var(--color-body-text-default);
 }
-
+.screen-reader-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 /* =============================================================================
 Navigation
 ==============================================================================*/
@@ -164,83 +180,7 @@ Navigation
 .logo {
   width: 15%;
 }
-/* =============================================================================
-Hero
-==============================================================================*/
-.hero {
-  background-image: linear-gradient(
-      180deg,
-      rgba(59, 59, 59, 0.3) 0%,
-      rgba(59, 59, 59, 0.3) 100%
-    ),
-    url('/hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  width: 100vw;
-  width: 100dvw;
-  height: 100vh;
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 1rem;
-}
-.hero-headline:after {
-  content: '';
-  display: block;
-  width: 60%;
-  height: 0.15rem;
-  background-color: rgba(255, 255, 255, 1);
-  margin: 1rem auto;
-}
-.search-box {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 0.75rem;
-  position: relative;
-  width: clamp(10rem, 95vw, 31rem);
-}
-#search {
-  width: 100%;
-}
-#search::placeholder {
-  font-size: 1rem;
-}
-.search-button {
-  padding: 0;
-  margin-left: 0.25rem;
-  min-width: 2.75rem;
-  min-height: 2.75rem;
-}
-.search-button:hover {
-  filter: brightness(0.8);
-}
-.search-button img {
-  display: block;
-  width: 100%;
-}
-.search-icon {
-  display: inline-block;
-  background-image: url('/search-icon.svg');
-  background-size: cover;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-.button-map-search {
-  background-color: var(--color-blue-blue4);
-  color: var(--color-body-text-default);
-  padding: 0.5rem;
-  margin-top: -0.75rem;
-  display: flex;
-  align-items: center;
-  transition: all 0.2s ease-in-out;
-}
-.button-map-search:hover {
-  background-color: var(--color-blue-blue2);
-}
+
 /* =============================================================================
 Page Content
 ==============================================================================*/
@@ -339,14 +279,19 @@ Footer
 .copyright {
   font-size: 0.9rem;
 }
-@media (min-width: 544px) {
-}
+
 @media (min-width: 768px) {
   .cta-wrapper {
     flex-direction: row;
   }
   .featured-listings-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  }
+  .address-content {
+    flex-direction: row;
+  }
+  .footer-logo {
+    width: 15%;
   }
 }
 @media (min-width: 1012px) {

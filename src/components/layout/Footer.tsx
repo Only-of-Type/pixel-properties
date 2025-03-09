@@ -2,7 +2,11 @@ function Footer() {
   return (
     <footer className='footer-wrapper'>
       <div className='address-content'>
-        <img src='/logo.png' alt='Go To Pixel Properties Homepage' />
+        <img
+          className='footer-logo'
+          src='/logo.png'
+          alt='Go To Pixel Properties Homepage'
+        />
         <address>
           <p className='display3'>Pixel Properties Office</p>
           <p>123 Starman Lane</p>
