@@ -1,0 +1,64 @@
+/* =============================================================================
+Footer
+==============================================================================*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.addressBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-blue-blue4);
+  width: 100%;
+  padding: 2rem;
+  gap: 2rem;
+}
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-blue-blue1);
+  padding: 1rem;
+  width: 100%;
+}
+.externalLinks {
+  display: flex;
+  justify-content: center;
+}
+.externalLink {
+  padding: 0.5rem;
+}
+.copyright {
+  font-size: 0.9rem;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav li {
+  margin-left: 1rem;
+}
+.footerNav {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 15%;
+  }
+  .addressBlock {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

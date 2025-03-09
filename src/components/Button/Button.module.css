@@ -2,12 +2,13 @@
   border-radius: var(--input-border-radius);
   background-color: var(--color-blue-blue2);
   color: white;
+  font-size: 1.25rem;
   border: 0.1rem solid transparent;
   width: 100%;
   max-width: 20rem;
   display: flex;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   position: relative;
   gap: 1rem;
   transition: all 0.2s ease-in-out;
@@ -15,6 +16,9 @@
 .button:hover,
 .button:active {
   background-color: var(--color-blue-blue1);
+}
+.icon {
+  flex-shrink: 0;
 }
 
 @media (prefers-reduced-motion) {

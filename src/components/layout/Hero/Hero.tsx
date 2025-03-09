@@ -1,6 +1,7 @@
 import Button from '../../Button/Button';
 import Input from '../../Input/Input';
 import styles from './Hero.module.css';
+import LocationIcon from '../../../assets/location-icon.svg?react';
 import SearchIcon from '../../../assets/search-icon.svg?react';
 
 function Hero() {
@@ -21,13 +22,13 @@ function Hero() {
               hideLabel
               placeholder='Enter a City or Zip Code'
             />
-            <button className='search-button' type='submit'>
-              <img src='/search-button.jpg' alt='Submit Search' />
-            </button>
+            <span className={styles.buttonContainer}>
+              <Button icon={SearchIcon} buttonIconOnly label='Submit Search' />
+            </span>
           </div>
         </form>
 
-        <Button label='Search Near Me' icon={SearchIcon} />
+        <Button label='Search Near Me' icon={LocationIcon} />
       </div>
     </section>
   );

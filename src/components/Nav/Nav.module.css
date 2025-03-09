@@ -1,0 +1,52 @@
+/* =============================================================================
+Navigation
+==============================================================================*/
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav li {
+  margin-left: 1rem;
+}
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 1rem 4rem;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 3;
+}
+.mainNavLinks {
+  display: none;
+  text-transform: uppercase;
+}
+.mobileNavButton {
+  padding: 1rem;
+}
+.sign-in-button {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--color-body-text-default);
+  padding: 0.25rem;
+  text-transform: uppercase;
+}
+.logo {
+  width: 15%;
+}
+
+@media (min-width: 1012px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .mobileNavButton {
+    display: none;
+  }
+}

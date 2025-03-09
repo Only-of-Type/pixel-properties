@@ -1,9 +1,11 @@
+import styles from './Footer.module.css';
+
 function Footer() {
   return (
-    <footer className='footer-wrapper'>
-      <div className='address-content'>
+    <footer className={styles.wrapper}>
+      <div className={styles.addressBlock}>
         <img
-          className='footer-logo'
+          className={styles.logo}
           src='/logo.png'
           alt='Go To Pixel Properties Homepage'
         />
@@ -21,10 +23,10 @@ function Footer() {
           </p>
         </address>
       </div>
-      <div className='footer-links'>
-        <div className='external-link-wrapper'>
+      <div className={styles.linksContainer}>
+        <div className={styles.externalLinks}>
           <a
-            className='external-link'
+            className={styles.externalLink}
             href='https://www.nar.realtor'
             title='National Association of Realtors. Opens a new window.'
             target='_blank'
@@ -32,7 +34,7 @@ function Footer() {
             <img src='/icon-realtor.jpg' alt='' role='presentation' />
           </a>
           <a
-            className='external-link'
+            className={styles.externalLink}
             href='https://www.hud.gov/program_offices/fair_housing_equal_opp'
             title='US Department of Housing and Urban Development. Opens a new window.'
             target='_blank'
@@ -41,8 +43,8 @@ function Footer() {
             <img src='/icon-equal-housing.jpg' alt='' role='presentation' />
           </a>
         </div>
-        <nav id='footer-nav'>
-          <ul className='nav'>
+        <nav id='footer-nav' className={styles.footerNav}>
+          <menu className={styles.nav}>
             <li>
               <a href='#'>Agents Only Login</a>
             </li>
@@ -55,9 +57,9 @@ function Footer() {
             <li>
               <a href='#'>ADA Accessibility</a>
             </li>
-          </ul>
+          </menu>
         </nav>
-        <p className='copyright'>
+        <p className={styles.copyright}>
           &copy;2025 Pixel Properties (Demo Site, not a real company)
         </p>
       </div>

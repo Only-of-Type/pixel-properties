@@ -1,13 +1,20 @@
+import Button from '../Button/Button';
+import styles from './Nav.module.css';
+
 function Nav() {
   return (
-    <nav id='main-nav'>
-      <a className='logo' href='#' title='Go to Pixel Properties Homepage'>
+    <nav id='main-nav' className={styles.mainNav}>
+      <a
+        className={styles.logo}
+        href='#'
+        title='Go to Pixel Properties Homepage'
+      >
         <img src='/logo.svg' alt='' role='presentation' />
       </a>
-      <button className='mobile-nav'>
+      <button className={styles.mobileNavButton}>
         <img src='/icon-hamburger.png' alt='Open Navigation' />
       </button>
-      <ul className='main-nav-links nav'>
+      <menu className={`${styles.mainNavLinks} ${styles.nav}`}>
         <li>
           <a href='#'>Search Properties</a>
         </li>
@@ -27,14 +34,9 @@ function Nav() {
           <a href='#'>555-555-5555</a>
         </li>
         <li>
-          <button
-            className='sign-in-button'
-            onClick={(e) => e.preventDefault()}
-          >
-            Sign Up&nbsp;/&nbsp;Login
-          </button>
+          <Button label='Login' />
         </li>
-      </ul>
+      </menu>
     </nav>
   );
 }

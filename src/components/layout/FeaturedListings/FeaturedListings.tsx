@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { formatter } from '../../util/utils';
+import { formatter } from '../../../util/utils';
+import styles from './FeaturedListings.module.css';
 
 export interface FeaturedListingType {
   id: string;
@@ -30,8 +31,8 @@ function FeaturedListings() {
   }, []);
   return (
     <section>
-      <h2 className='display2 featured-listings-headline'>Featured Listings</h2>
-      <ul className='featured-listings-wrapper'>
+      <h2 className={`display2 ${styles.headline}`}>Featured Listings</h2>
+      <ul className={styles.listingWrapper}>
         {data
           ? data.map(
               ({
@@ -43,18 +44,18 @@ function FeaturedListings() {
                 baths,
               }: FeaturedListingType) => {
                 return (
-                  <li key={id} className='featured-listing'>
+                  <li key={id} className={styles.listing}>
                     <a
-                      className='featured-listing-link'
+                      className={styles.listingLink}
                       href='#'
                       title='View Details on 1234 Main Street'
                     >
                       <img
                         src={`/` + picture}
-                        className='featured-home-image'
+                        className={styles.listingImage}
                         alt='1234 Main Street Single Family Home: 4 Beds 2 Baths'
                       />
-                      <div className='featured-listing-text raleway-semi-bold '>
+                      <div className={styles.listingText}>
                         <p>{address}</p>
                         <p>{formatter.format(Number(price))}</p>
                         <p>

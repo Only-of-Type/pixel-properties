@@ -14,6 +14,7 @@ function Button({
   label,
   icon: Icon,
   buttonStyle = 'primary',
+  buttonIconOnly,
   ...props
 }: ButtonType) {
   const buttonClasses = classnames(styles.button, {
@@ -22,13 +23,17 @@ function Button({
   });
 
   return (
-    <button className={buttonClasses} type={props.type}>
+    <button
+      className={buttonClasses}
+      type={props.type}
+      aria-label={buttonIconOnly ? label : undefined}
+    >
       {Icon && (
-        <span>
+        <span className={styles.icon}>
           <Icon />
         </span>
       )}
-      {label}
+      {!buttonIconOnly && label}
     </button>
   );
 }

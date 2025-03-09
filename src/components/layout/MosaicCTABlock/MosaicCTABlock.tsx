@@ -1,8 +1,10 @@
-function MidpageCTABlock() {
+import styles from './MosaicCTABlock.module.css';
+
+function MosaicCTABlock() {
   return (
     <section id='midpage-ctas'>
-      <div className='cta-wrapper'>
-        <a className='midpage-cta' href='#;'>
+      <div className={styles.ctaWrapper}>
+        <a className={styles.cta} href='#;'>
           <img src='/icon-open-house.jpg' alt='' role='presentation' />
           <h2 className='display4'>Open Houses</h2>
           <p>
@@ -10,14 +12,14 @@ function MidpageCTABlock() {
             houses.
           </p>
         </a>
-        <a className='midpage-cta' href='#'>
+        <a className={styles.cta} href='#'>
           <img src='/icon-create-account.jpg' alt='' role='presentation' />
           <h2 className='display4'>Create Account</h2>
           <p>
             Sign up and be the first to see the newest listings emailed daily.
           </p>
         </a>
-        <a className='midpage-cta' href='#'>
+        <a className={styles.cta} href='#'>
           <img src='/icon-map-search.jpg' alt='' role='presentation' />
           <h2 className='display4'>Search by Map</h2>
           <p>Find the perfect neighborhood with our advanced map search.</p>
@@ -26,4 +28,4 @@ function MidpageCTABlock() {
     </section>
   );
 }
-export default MidpageCTABlock;
+export default MosaicCTABlock;
