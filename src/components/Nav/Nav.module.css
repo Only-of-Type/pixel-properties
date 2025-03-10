@@ -15,6 +15,9 @@ Navigation
   outline: 2px solid var(--color-orange-orange3);
   border-radius: 0.25rem;
 }
+.link:hover {
+  color: var(--color-orange-orange2);
+}
 .mainNav {
   display: flex;
   justify-content: space-between;
