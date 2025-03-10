@@ -15,11 +15,11 @@ function Footer() {
           <p>Onett, Eagleland 11111</p>
           <p>
             <span className='bold'>Phone:</span>
-            <a href='tel:+555-555-5555'> 555-555-5555</a>
+            <a href='tel:555-555-5555'> 555-555-5555</a>
           </p>
           <p>
             <span className='bold'>Toll Free:</span>
-            <a href='tel:+800-555-5555'> 800-555-5555</a>
+            <a href='tel:800-555-5555'> 800-555-5555</a>
           </p>
         </address>
       </div>
